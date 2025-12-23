@@ -7,7 +7,7 @@ Write-Host "Iniciando instalación de paquetería..." -ForegroundColor Cyan
 
 # 1. Instalar Todoist (En lugar de Chrome)
 Write-Host "Instalando Todoist..." -ForegroundColor Yellow
-winget install -e --id Doist.Todoist --accept-package-agreements --accept-source-agreements
+winget install -e --id Doist.Todoist --accept-package-agreements --accept-source-agreementsgit --version
 
 # 2. Instalar GitHub Desktop
 Write-Host "Instalando Git..." -ForegroundColor Yellow
