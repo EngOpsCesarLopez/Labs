@@ -10,10 +10,12 @@ Write-Host "Instalando Todoist..." -ForegroundColor Yellow
 winget install -e --id Doist.Todoist --accept-package-agreements --accept-source-agreementsgit --version
 
 # 2. Instalar GitHub Desktop
-Write-Host "Instalando Git..." -ForegroundColor Yellow
-winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
+#Write-Host "Instalando Git..." -ForegroundColor Yellow
+#winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
 
-# Nota: Si también necesitas la línea de comandos de Git pura, descomenta la siguiente línea:
-# winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
+# 3. Instalar Obsidian
+Write-Host "Instalando Obsidian..." -ForegroundColor Yellow
+winget install -e --id Obsidian.Obsidian --accept-package-agreements --accept-source-agreements
 
-Write-Host "¡Instalación completada exitosamente!" -ForegroundColor Green
+
+Write-Host "Instalacion completada exitosamente" -ForegroundColor Green
